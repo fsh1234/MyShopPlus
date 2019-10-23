@@ -44,6 +44,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
 
         <!-- Spring Cloud -->
         <dependency>
@@ -86,7 +90,17 @@
         </dependency>
         <dependency>
             <groupId>com.funtl.myshop.plus</groupId>
-            <artifactId>ums-admin-provider-api</artifactId>
+            <artifactId>provider-admin-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.funtl.myshop.plus</groupId>
+            <artifactId>cloud-message-api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.funtl.myshop.plus</groupId>
+            <artifactId>cloud-message-feign</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
     </dependencies>

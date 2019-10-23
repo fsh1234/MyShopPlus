@@ -33,6 +33,7 @@ Aliyun SDK OSS | 阿里云对象存储服务 | [官网](https://help.aliyun.com/
 Spring Boot | 新一代 JavaEE 开发标准 | [GitHub](https://github.com/spring-projects/spring-boot)
 Spring Cloud Alibaba | 阿里巴巴基于 Spring Cloud 编程模型的微服务生态 | [GitHub](https://github.com/alibaba/spring-cloud-alibaba)
 Spring Cloud Alibaba Dubbo | 与 Spring Cloud Alibaba 生态相结合的高性能 Java RPC 框架 | [GitHub](https://github.com/apache/dubbo)
+Spring Cloud Alibaba RocketMQ | 分布式消息系统 | [GitHub](https://github.com/alibaba/spring-cloud-alibaba/blob/master/spring-cloud-alibaba-examples/rocketmq-example/readme.md)
 Spring Security oAuth2 | 安全认证和授权框架 | [GitHub](https://github.com/spring-projects/spring-security-oauth)
 Spring Social | 第三方登录接入框架 | [GitHub](https://github.com/spring-projects/spring-social)
 TkMyBatis | 基于 MyBatis 二次开发的轻量级框架，用于简化 MyBatis 操作 | [GitHub](https://github.com/abel533/Mapper)
@@ -46,7 +47,8 @@ Docker Compose | 容器编排工具 | [官网](https://docs.docker.com/compose/)
 Kubernetes | 容器编排系统 | [官网](https://kubernetes.io/)
 TiDB | 分布式数据库 | [官网](https://pingcap.com/)
 OKHttp3 | 轻量级网络框架 | [GitHub](https://github.com/square/okhttp)
-Feign | 声明式 HTTP 客户端 | [GitHub](https://github.com/OpenFeign/feign)
+OpenFeign | 声明式 HTTP 客户端 | [GitHub](https://github.com/OpenFeign/feign)
+UserAgentUtils | 用户代理检查工具 | [GitHub](https://github.com/HaraldWalker/user-agent-utils)
 
 ## 前端技术
 
@@ -162,9 +164,10 @@ ZenTao | docker-zentao | 192.168.141.203:80 | 2 核 2G | 项目管理
 | 主机名               | IP                 | 角色   | CPU/MEM | 磁盘     |
 | -------------------- | ------------------ | ------ | ------- | -------- |
 | kubernetes\-master   | 192\.168\.141\.110 | Master | 2 核 2G | 20G      |
-| kubernetes\-node\-01 | 192\.168\.141\.120 | Node   | 2 核 4G | 20G      |
-| kubernetes\-node\-02 | 192\.168\.141\.121 | Node   | 2 核 4G | 20G      |
-| kubernetes\-node\-03 | 192\.168\.141\.122 | Node   | 2 核 4G | 20G      |
+| kubernetes\-node\-01 | 192\.168\.141\.120 | Node   | 2 核 4G | 20G + 40G      |
+| kubernetes\-node\-02 | 192\.168\.141\.121 | Node   | 2 核 4G | 20G + 40G      |
+| kubernetes\-node\-03 | 192\.168\.141\.122 | Node   | 2 核 4G | 20G + 40G      |
+| kubernetes\-node\-04 | 192\.168\.141\.123 | Node   | 2 核 8G | 20G + 40G      |
 | kubernetes-volumes   | 192.168.141.130    | NFS    | 2 核 2G | 按需扩容 |
 
 ## 容器部署配置
